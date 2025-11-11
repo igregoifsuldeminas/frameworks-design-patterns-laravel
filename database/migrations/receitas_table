@@ -1,0 +1,6 @@
+Schema::create('receitas', function (Blueprint $table) {
+    $table->id();
+    $table->string('titulo');
+    $table->text('descricao');
+    $table->timestamps();
+});
